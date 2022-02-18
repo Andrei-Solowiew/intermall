@@ -1,0 +1,141 @@
+.discount {
+  margin-bottom: 63px;
+  padding: 57px 0 50px 0;
+  color: #fff;
+  background: linear-gradient(95.44deg, #282A91 36.8%, #1B1D84 87.86%);
+}
+
+.discount__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.discount__h2 {
+  margin-left: 50px;
+  margin-bottom: 23px;
+}
+
+.discount__p {
+  margin-left: 49px;
+  margin-bottom: 43px;
+  max-width: 277px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.discount__p .strong {
+  font-weight: 500;
+}
+
+.discount__form {
+  margin-bottom: 33px;
+  display: flex;
+}
+
+.discount__input {
+  padding: 18px 0 18px 27px;
+  width: 451px;
+  color: #fff;
+  background-color: #c1c1df;
+  border: none;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.discount__input::placeholder {
+  color: #fff;
+}
+
+.discount__submit {
+  padding: 18px 25px 18px 25px;
+  color: #282a91;
+  font-weight: 700;
+  border: none;
+  border-radius: 0px 10px 10px 0px;
+  cursor: pointer;
+}
+
+.discount__input:focus {
+  outline: none;
+}
+
+.discount__submit:focus {
+  outline: none;
+  transform: rotate(360deg);
+  transition: transform 1s ease;
+}
+
+.discount__input:hover, 
+.discount__input:focus {
+  background-color: #C0C0C0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.discount__submit:hover {
+  background-color: #C0C0C0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+} 
+
+.discount__submit:active {
+  background-color: #A9A9A9;
+  transform: none;
+}
+
+.discount__input:active {
+  background-color: #A9A9A9;
+}
+
+.discount__list {
+  align-items: center;
+}
+
+.discount__item:not(:last-child) {
+  margin-right: 26px;
+}
+
+.discount__item:hover {
+  transform: scale(1.10);
+  transition: transform 0.3s ease, border-bottom 0.3s ease;
+}
+
+.discount__link:focus{
+  border-bottom: 1px solid #fff;
+}
+
+.discount__item:active {
+  transform: scale(1.25);
+  border-bottom: none;
+}
+
+@media (max-width: 700px) {
+  .discount__form {
+    flex-direction: column;
+  }
+
+  .discount__input {
+    margin-bottom: 50px;
+  }
+
+  .discount__input,
+  .discount__submit {
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .discount__p,
+  .discount__h2 {
+    margin-left: 0;
+  }
+
+  .discount__input {
+    width: 345px;
+  }
+}
+
+@media (max-width: 400px) {
+  .discount__input {
+    width: 286px;
+  }
+}

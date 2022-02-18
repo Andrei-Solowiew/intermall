@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/product.css">
+  <link rel="stylesheet" href="css/description.css">
+  <link rel="stylesheet" href="css/content.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <title>Intermall - товар</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <div class="header__top">
+        <img class="header__img" src="img/Logo.svg" alt="Логотип">
+        <div class="header__contacts">
+          <span class="header__tel">+7(499)732-79-21</span>
+          <span class="header__address">Москва и Московская обл.</span>
+        </div>
+        <ul class="header__list ul">
+          <li class="header__item">
+            <a class="header__link a" href="#">Стать продавцом</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link a" href="#">Продавцы</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link a" href="#">Доставка и оплата</a>
+          </li>
+          <li class="header__item header__item_icon">
+            <a class="header__link a" href="#">Информация</a>
+          </li>
+          <li class="header__item header__item_currency">
+            <a class="header__link a" href="#">Валюта</a>
+          </li>
+        </ul>
+        <div class="header__burger"><span></span></div>
+      </div>
+      <div class="header__bottom">
+        <button class="header__btn btn hvr-sweep-to-right">
+          <span class="header__catalog"><span></span></span>Каталог
+        </button>
+        <div class="header__dropdown">
+          <ul class="header__drop-list ul">
+            <li class="header__drop-item">
+              <a class="header__drop-link a" href="">Одежда</a>
+            </li>
+            <li class="header__drop-item">
+              <a class="header__drop-link a" href="">Телефоны</a>
+            </li>
+            <li class="header__drop-item">
+              <a class="header__drop-link a" href="">Акссессуары</a>
+            </li>
+            <li class="header__drop-item">
+              <a class="header__drop-link a" href="">Компьютеры</a>
+            </li>
+            <li class="header__drop-item">
+              <a class="header__drop-link a" href="">Одежда</a>
+            </li>
+            <li class="header__drop-item">
+              <a class="header__drop-link a" href="">Телефоны</a>
+            </li>
+          </ul>
+        </div>
+
+        <form class="header__form" action="">
+          <input class="header__input" type="text" placeholder="Я ищу...">
+          <button class="header__submit"></button>
+        </form>
+
+
+        <div class="header__bottom-right">
+          <a class="header__bottom-link header__bottom-link_enter a" href="#">Войти</a>
+          <a class="header__bottom-link header__bottom-link_basket a" href="#">Корзина</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="product">
+    <div class="product__container container">
+      <ul class="product__list ul">
+        <li class="product__item">
+          <a class="product__link a" href="index.html">Главная</a>
+        </li>
+        <li class="product__item">
+          <a class="product__link a" href="index.html">Одежда</a>
+        </li>
+        <li class="product__item">
+          <a class="product__link a" href="index.html">Мужская одежда</a>
+        </li>
+        <li class="product__item">
+          <a class="product__link a" href="index.html">Gillette Mach 3 сменные кассеты для ...</a>
+        </li>
+      </ul>
+
+      <div class="product__content">
+        <ul class="product__photos-list ul">
+          <li class="product__photos-item">
+            <img class="product__photos-img" src="img/headphones_1.png" alt="наушники">
+          </li>
+          <li class="product__photos-item">
+            <img class="product__photos-img" src="img/headphones_2.png" alt="наушники">
+          </li>
+          <li class="product__photos-item">
+            <img class="product__photos-img" src="img/headphones_3.png" alt="наушники">
+          </li>
+          <li class="product__photos-item">
+            <img class="product__photos-img" src="img/headphones_4.png" alt="наушники">
+          </li>
+        </ul>
+        <img class="product__photo" src="img/headphones_main.jpg" alt="наушники">
+        <div class="produt__info">
+          <h2 class="product__h2 h2">Gillette Mach 3 сменные кассеты для бритвы</h2>
+          <div class="product__availability">В наличии</div>
+          <ul class="product__info-list ul">
+            <li class="product__info-item">
+              <span class="product__text-left">Продавец</span>
+              <span class="product__text-right">ИП Бульканова Инна Александровна</span>
+            </li>
+            <li class="product__info-item">
+              <span class="product__text-left">Цена в баллах</span>
+              <span class="product__text-right">150 баллов</span>
+            </li>
+            <li class="product__info-item">
+              <span class="product__text-left">Кол-во</span>
+              <div class="product__count">
+                <button class="product__btn product__btn_minus btn"></button>
+                <span class="product__qua">4</span>
+                <button class="product__btn product__btn_plus btn"></button>
+              </div>
+            </li>
+          </ul>
+          <div class="product__price">$ 1450</div>
+          <div class="product__bottom">
+            <a class="product__backet btn a" href="">В корзину</a>
+            <button class="product__buy btn" href="">Купить в один клик</button>
+            <button class="product__favourites btn"></button>
+            <button class="product__comparison btn"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="description">
+    <div class="container">
+      <h2 class="description__h2 h2">Описание</h2>
+      <p class="description__p p">Мужские бритвы Gillette Mach3 оснащены лезвиями прочнее, чем сталь, которые дольше
+        сохраняют остроту (по сравнению с
+        Sensor3). Более острые лезвия (первые 2 лезвия по сравнению с Sensor3) рассчитаны на 15 процедур комфортного
+        бритья. Эта
+        бритва Gillette оснащена смазывающей полоской, которая скользит по коже, предотвращая ее покраснение, а защитный
+        микрогребень Skin Guard помогает натянуть кожу и подготовить волоски к срезанию.</p>
+    </div>
+  </section>
+
+  <section class="price">
+    <div class="new__swiper container swiper">
+      <h2 class="new__h2 h2">За ту же цену</h2>
+      <ul class="price__swiper-wrapper swiper-wrapper ul">
+        <li class="new__slide swiper-slide" tabindex="-1">
+          <img class="new__image" src="img/new__image_one.png" alt="медиаплеер">
+          <p class="new__p p">
+            Портативный медиаплеер Ritmix RB -1010 Grey
+          </p>
+          <div class="new__slide-bottom">
+            <a class="new__link a" href=""></a>
+            <div class="new__prices">
+              <span class="new__price">3400Р</span>
+            </div>
+          </div>
+        </li>
+        <li class="new__slide swiper-slide" tabindex="-1">
+          <img class="new__image" src="img/new__image_two.png" alt="наушники">
+          <p class="new__p p">
+            Беспроводные наушники Remax RB-S26 Black
+          </p>
+          <div class="new__slide-bottom">
+            <a class="new__link a" href=""></a>
+            <div class="new__prices">
+              <span class="new__price">3400 Р</span>
+            </div>
+          </div>
+        </li>
+        <li class="new__slide swiper-slide" tabindex="-1">
+          <img class="new__image" src="img/new__image_three.png" alt="Шапочка">
+          <p class="new__p p">
+            Шапочка Atemi
+          </p>
+          <div class="new__slide-bottom">
+            <a class="new__link a" href=""></a>
+            <div class="new__prices">
+              <span class="new__price">3400Р</span>
+            </div>
+          </div>
+        </li>
+        <li class="new__slide swiper-slide" tabindex="-1">
+          <img class="new__image" src="img/new__image_four.png" alt="Касеты">
+          <p class="new__p p">
+            Касеты сменные для бритвы Mach 3 4шт. Gillette
+          </p>
+          <div class="new__slide-bottom">
+            <a class="new__link a" href=""></a>
+            <div class="new__prices">
+              <span class="new__price">3400Р</span>
+            </div>
+          </div>
+        </li>
+        <li class="new__slide swiper-slide" tabindex="-1">
+          <img class="new__image" src="img/new__image_one.png" alt="медиаплеер">
+          <p class="new__p p">
+            Портативный медиаплеер Ritmix RB -1010 Grey
+          </p>
+          <div class="new__slide-bottom">
+            <a class="new__link a" href="" tabindex="-1"></a>
+            <span class="new__price">3400Р</span>
+          </div>
+        </li>
+        <li class="new__slide swiper-slide" tabindex="-1">
+          <img class="new__image" src="img/new__image_one.png" alt="медиаплеер">
+          <p class="new__p p">
+            Портативный медиаплеер Ritmix RB -1010 Grey
+          </p>
+          <div class="new__slide-bottom">
+            <a class="new__link a" href="" tabindex="-1"></a>
+            <span class="new__price">3400Р</span>
+          </div>
+        </li>
+      </ul>
+  
+      <a class="price__link-all new__link-all a" href="">Показать еще</a>
+  
+      <div class="new__button_prev swiper-button-prev"></div>
+      <div class="new__button_next swiper-button-next"></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <ul class="footer__list ul">
+        <li class="footer__item">
+          <h3 class="footer__h3 h3">Кабинет покупателя</h3>
+          <a class="footer__link a" href="">Войти</a>
+          <a class="footer__link a" href="">Заказы</a>
+          <a class="footer__link a" href="">Создать учетную запись</a>
+          <a class="footer__link a" href="">Отложенные товары</a>
+          <a class="footer__link a" href="">Список сравнения</a>
+        </li>
+        <li class="footer__item">
+          <h3 class="footer__h3 h3">Магазин</h3>
+          <a class="footer__link a" href="">О компании</a>
+          <a class="footer__link a" href="">Бонусные баллы</a>
+          <a class="footer__link a" href="">Подарочные сертификаты</a>
+          <a class="footer__link a" href="">Карта сайта</a>
+        </li>
+        <li class="footer__item">
+          <h3 class="footer__h3 h3">Оформление заказа</h3>
+          <a class="footer__link a" href="">Корзина</a>
+          <a class="footer__link a" href="">Доставка и оплата</a>
+          <a class="footer__link a" href="">Возврат</a>
+        </li>
+        <li class="footer__item">
+          <h3 class="footer__h3 h3">Контакты</h3>
+          <p class="footer__p p">
+            г. Москва, Вн.Тер.г. Муниципальный округ Рязанский, ул. Зарайская, дом 21, этаж 3, пом. 2, офис 132
+          </p>
+          <p class="footer__p p">
+            <a class="footer__tel a" href="tel:+380985554433">8 (499) 732-39-31</a>
+            (звонок бесплатный)
+          </p>
+          <p class="footer__p p">
+            Пн-Пт 9.00-18.00
+          </p>
+        </li>
+      </ul>
+  
+      <aside class="footer__aside">© 2020 - 2021 ООО «ИнтерМолл».</aside>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="js/dropdown.js"></script>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="js/new__swiper.js"></script>
+  <script src="js/burger.js"></script>
+</body>
+</html>

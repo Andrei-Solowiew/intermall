@@ -1,0 +1,316 @@
+.product {
+  margin-bottom: 44px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.product__list {
+  margin-bottom: 32px;
+}
+
+.product__item {
+  font-family: 'Roboto', sans-serif;
+}
+
+.product__item:not(:last-child) {
+  padding-right: 18px;
+  margin-right: 13px;
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='9' viewBox='0 0 6 9' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1C1.24615 1 3.76923 3.33333 5 4.5L1 8' stroke='black'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: 100% 6px;
+  background-size: 3px 5px;
+}
+
+.product__item:hover {
+  color: #696969;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.product__link:focus {
+  border-bottom: 1px solid #000;
+}
+
+.product__link:active {
+  border-bottom: none;
+}
+
+.product__item:active {
+  color: #C0C0C0;
+}
+
+.product__content {
+  display: flex;
+}
+
+.product__photos-list {
+  margin-right: 40px;
+  flex-direction: column;
+}
+
+.product__photos-item:not(:last-child) {
+  margin-bottom: 18px;
+}
+
+.product__photo {
+  margin-right: 47px;
+}
+
+.product__h2 {
+  margin-bottom: 17px;
+  max-width: 555px;
+  line-height: 45px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.product__availability {
+  margin-bottom: 25px;
+  font-weight: 700;
+  color: #36C868;
+}
+
+.product__info-list {
+  margin-bottom: 30px;
+  flex-direction: column;
+}
+
+.product__info-item {
+  display: flex;
+}
+
+.product__info-item:first-child {
+  margin-bottom: 22px;
+}
+
+.product__info-item:nth-child(2) {
+  margin-bottom: 27px;
+}
+
+.product__text-left {
+  margin-right: 30px;
+  display: inline-block;
+  align-self: center;
+  width: 106px;
+  font-weight: 300;
+  color: #6D6D6D;
+}
+
+.product__btn {
+  width: 28px;
+  height: 28px;
+  border-radius: 5px;
+  border: 1px solid #282A91;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.product__btn_minus {
+  margin-right: 15px;
+  cursor: pointer;
+  background-color: #fff;
+  background-image: url("data:image/svg+xml,%3Csvg width='10' height='2' viewBox='0 0 10 2' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='10' width='2' height='10' transform='rotate(90 10 0)' fill='%23282A91'/%3E%3C/svg%3E%0A");
+}
+
+.product__btn_minus:hover {
+  background-color: #dcdcdc;
+  transition: background-color 0.3s ease, outline 0.3s ease, outline-offset 0.3s ease;
+}
+
+.product__btn_minus:focus {
+  outline: 1px solid #282A91;
+  outline-offset: 5px;
+}
+
+.product__btn_minus:active {
+  outline: none;
+  background-color: #c0c0c0;
+}
+
+.product__qua {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.product__btn_plus {
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg width='10' height='10' viewBox='0 0 10 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='4' width='2' height='10' fill='white'/%3E%3Crect x='10' y='4' width='2' height='10' transform='rotate(90 10 4)' fill='white'/%3E%3C/svg%3E%0A");
+}
+
+.product__btn_plus:hover {
+  background-color: #000080;
+  transition: background-color 0.3s ease, outline 0.3s ease, outline-offset 0.3s ease;
+}
+
+.product__btn_plus:focus {
+  outline: 1px solid #282A91;
+  outline-offset: 5px;
+}
+
+.product__btn_plus:active {
+  outline: none;
+  background-color: #0000ff;
+}
+
+.product__count {
+  display: flex;
+}
+
+.product__price {
+  margin-bottom: 37px;
+  font-size: 33px;
+  font-weight: 700;
+}
+
+.product__bottom {
+  display: flex;
+}
+
+.product__backet {
+  margin-right: 19px;
+  padding: 18px 62px;
+  max-width: 250px;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.product__backet:hover {
+  background-color: #000080;
+  transition: background-color 0.3s ease, outline 0.3s ease, outline-offset 0.3s ease;
+}
+
+.product__backet:focus {
+  outline: 2px solid #282A91;
+  outline-offset: 5px;
+}
+
+.product__backet:active {
+  outline: none;
+  background-color: #0000ff;
+}
+
+.product__buy {
+  margin-right: 55px;
+  padding: 18px 26px;
+  max-width: 250px;
+  cursor: pointer;
+  color: #000;
+  background-color: #A8FAE3;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.product__buy:hover {
+  background-color: #2E8B57;
+  transition: background-color 0.3s ease, outline 0.3s ease, outline-offset 0.3s ease;
+}
+
+.product__buy:focus {
+  outline: 2px solid #A8FAE3;
+  outline-offset: 5px;
+}
+
+.product__buy:active {
+  outline: none;
+  background-color: #00FF00;
+}
+
+.product__favourites,
+.product__comparison {
+  align-self: center;
+  padding: 0;
+  background-color: transparent;
+}
+
+.product__favourites {
+  margin-right: 38px;
+  width: 20px;
+  height: 18px;
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='19' viewBox='0 0 20 19' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.22318 16.2905L9.22174 16.2892C6.62708 13.9364 4.55406 12.0515 3.11801 10.2946C1.69296 8.55118 1 7.05624 1 5.5C1 2.96348 2.97109 1 5.5 1C6.9377 1 8.33413 1.67446 9.24117 2.73128L10 3.61543L10.7588 2.73128C11.6659 1.67446 13.0623 1 14.5 1C17.0289 1 19 2.96348 19 5.5C19 7.05624 18.307 8.55118 16.882 10.2946C15.4459 12.0515 13.3729 13.9364 10.7783 16.2892L10.7768 16.2905L10 16.9977L9.22318 16.2905Z' stroke='%23EE1B1B' stroke-width='2'/%3E%3C/svg%3E ");
+}
+
+.product__favourites:hover,
+.product__favourites:active,
+.product__favourites:focus {
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='19' viewBox='0 0 20 19' fill='%23EE1B1B' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.22318 16.2905L9.22174 16.2892C6.62708 13.9364 4.55406 12.0515 3.11801 10.2946C1.69296 8.55118 1 7.05624 1 5.5C1 2.96348 2.97109 1 5.5 1C6.9377 1 8.33413 1.67446 9.24117 2.73128L10 3.61543L10.7588 2.73128C11.6659 1.67446 13.0623 1 14.5 1C17.0289 1 19 2.96348 19 5.5C19 7.05624 18.307 8.55118 16.882 10.2946C15.4459 12.0515 13.3729 13.9364 10.7783 16.2892L10.7768 16.2905L10 16.9977L9.22318 16.2905Z' stroke='%23EE1B1B' stroke-width='2'/%3E%3C/svg%3E ");
+  transition: background-image 0.3s ease;
+}
+
+.product__comparison {
+  width: 21px;
+  height: 19px;
+  background-image: url("data:image/svg+xml,%3Csvg width='22' height='19' viewBox='0 0 22 19' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.9999 0C9.72993 0 8.59993 0.8 8.17993 2H1.99993V4H3.94993L0.999932 11C0.529932 13 1.99993 14 4.49993 14C6.99993 14 8.55993 13 7.99993 11L5.04993 4H8.16993C8.49993 4.85 9.14993 5.5 9.99993 5.83V17H0.999932V19H20.9999V17H11.9999V5.82C12.8499 5.5 13.4999 4.85 13.8199 4H16.9499L13.9999 11C13.5299 13 14.9999 14 17.4999 14C19.9999 14 21.5599 13 20.9999 11L18.0499 4H19.9999V2H13.8299C13.3999 0.8 12.2699 0 10.9999 0ZM10.9999 2C11.2651 2 11.5195 2.10536 11.707 2.29289C11.8946 2.48043 11.9999 2.73478 11.9999 3C11.9999 3.26522 11.8946 3.51957 11.707 3.70711C11.5195 3.89464 11.2651 4 10.9999 4C10.7347 4 10.4804 3.89464 10.2928 3.70711C10.1053 3.51957 9.99993 3.26522 9.99993 3C9.99993 2.73478 10.1053 2.48043 10.2928 2.29289C10.4804 2.10536 10.7347 2 10.9999 2ZM4.49993 7.25L5.99993 11H2.99993L4.49993 7.25ZM17.4999 7.25L18.9999 11H15.9999L17.4999 7.25Z' fill='%234F4F4F'/%3E%3C/svg%3E ");
+}
+
+.product__comparison:hover {
+  background-image: url("data:image/svg+xml,%3Csvg width='22' height='19' viewBox='0 0 22 19' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.9999 0C9.72993 0 8.59993 0.8 8.17993 2H1.99993V4H3.94993L0.999932 11C0.529932 13 1.99993 14 4.49993 14C6.99993 14 8.55993 13 7.99993 11L5.04993 4H8.16993C8.49993 4.85 9.14993 5.5 9.99993 5.83V17H0.999932V19H20.9999V17H11.9999V5.82C12.8499 5.5 13.4999 4.85 13.8199 4H16.9499L13.9999 11C13.5299 13 14.9999 14 17.4999 14C19.9999 14 21.5599 13 20.9999 11L18.0499 4H19.9999V2H13.8299C13.3999 0.8 12.2699 0 10.9999 0ZM10.9999 2C11.2651 2 11.5195 2.10536 11.707 2.29289C11.8946 2.48043 11.9999 2.73478 11.9999 3C11.9999 3.26522 11.8946 3.51957 11.707 3.70711C11.5195 3.89464 11.2651 4 10.9999 4C10.7347 4 10.4804 3.89464 10.2928 3.70711C10.1053 3.51957 9.99993 3.26522 9.99993 3C9.99993 2.73478 10.1053 2.48043 10.2928 2.29289C10.4804 2.10536 10.7347 2 10.9999 2ZM4.49993 7.25L5.99993 11H2.99993L4.49993 7.25ZM17.4999 7.25L18.9999 11H15.9999L17.4999 7.25Z' fill='%23000'/%3E%3C/svg%3E ");
+  transition: background-image 0.3s ease, transform 1.3s ease;
+}
+
+.product__comparison:focus {
+  transform: rotate(360deg);
+}
+
+.product__comparison:active {
+  background-image: url("data:image/svg+xml,%3Csvg width='22' height='19' viewBox='0 0 22 19' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.9999 0C9.72993 0 8.59993 0.8 8.17993 2H1.99993V4H3.94993L0.999932 11C0.529932 13 1.99993 14 4.49993 14C6.99993 14 8.55993 13 7.99993 11L5.04993 4H8.16993C8.49993 4.85 9.14993 5.5 9.99993 5.83V17H0.999932V19H20.9999V17H11.9999V5.82C12.8499 5.5 13.4999 4.85 13.8199 4H16.9499L13.9999 11C13.5299 13 14.9999 14 17.4999 14C19.9999 14 21.5599 13 20.9999 11L18.0499 4H19.9999V2H13.8299C13.3999 0.8 12.2699 0 10.9999 0ZM10.9999 2C11.2651 2 11.5195 2.10536 11.707 2.29289C11.8946 2.48043 11.9999 2.73478 11.9999 3C11.9999 3.26522 11.8946 3.51957 11.707 3.70711C11.5195 3.89464 11.2651 4 10.9999 4C10.7347 4 10.4804 3.89464 10.2928 3.70711C10.1053 3.51957 9.99993 3.26522 9.99993 3C9.99993 2.73478 10.1053 2.48043 10.2928 2.29289C10.4804 2.10536 10.7347 2 10.9999 2ZM4.49993 7.25L5.99993 11H2.99993L4.49993 7.25ZM17.4999 7.25L18.9999 11H15.9999L17.4999 7.25Z' fill='%23C0C0C0'/%3E%3C/svg%3E ");
+}
+
+@media (max-width: 1300px) {
+  .product__buy,
+  .product__comparison {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .product__h2 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .product__photo {
+    height: 400px;
+  }
+}
+
+@media (max-width: 900px) {
+  .product__h2 {
+    line-height: 35px;
+  }
+}
+
+@media (max-width: 800px) {
+  .product__photos-list,
+  .product__list {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .product__content {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  .product__photo {
+    height: 370px;
+  }
+}
+
+@media (max-width: 500px) {
+  .product__photo {
+    height: 320px;
+  }
+}
+
+@media (max-width: 400px) {
+  .product__photo {
+    height: 250px;
+  }
+
+  .product__h2 {
+    line-height: 28px;
+    font-size: 20px;
+  }
+}

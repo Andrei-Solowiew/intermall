@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/offers.css">
+  <link rel="stylesheet" href="css/content.css">
+  <link rel="stylesheet" href="css/discount.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <title>Intermall - главная страница</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <div class="header__top">
+        <img class="header__img" src="img/Logo.svg" alt="Логотип">
+        <div class="header__contacts">
+          <span class="header__tel">+7(499)732-79-21</span>
+          <span class="header__address">Москва и Московская обл.</span>
+        </div>
+        <ul class="header__list ul">
+          <li class="header__item">
+            <a class="header__link a" href="#">Стать продавцом</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link a" href="#">Продавцы</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link a" href="#">Доставка и оплата</a>
+          </li>
+          <li class="header__item header__item_icon">
+            <a class="header__link a" href="#">Информация</a>
+          </li>
+          <li class="header__item header__item_currency">
+            <a class="header__link a" href="#">Валюта</a>
+          </li>
+        </ul>
+        <div class="header__burger"><span></span></div>
+      </div>
+      <div class="header__bottom">
+        <button class="header__btn btn hvr-sweep-to-right">
+          <span class="header__catalog"><span></span></span>Каталог
+        </button>
+        <div class="header__dropdown">
+          <ul class="header__drop-list ul">
+            <li class="header__drop-item">
+              <a class="header__drop-link a" href="">Одежда</a>
+            </li>
+            <li class="header__drop-item">
+              <a class="header__drop-link a" href="">Телефоны</a>
+            </li>
+            <li class="header__drop-item">
+              <a class="header__drop-link a" href="">Акссессуары</a>
+            </li>
+            <li class="header__drop-item">
+              <a class="header__drop-link a" href="">Компьютеры</a>
+            </li>
+            <li class="header__drop-item">
+              <a class="header__drop-link a" href="">Одежда</a>
+            </li>
+            <li class="header__drop-item">
+              <a class="header__drop-link a" href="">Телефоны</a>
+            </li>
+          </ul>
+        </div>
+
+        <form class="header__form" action="">
+          <input class="header__input" type="text" placeholder="Я ищу...">
+          <button class="header__submit"></button>
+        </form>
+
+
+        <div class="header__bottom-right">
+          <a class="header__bottom-link header__bottom-link_enter a" href="#">Войти</a>
+          <a class="header__bottom-link header__bottom-link_basket a" href="#">Корзина</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="offers">
+    <div class="container offers__container">
+      <div class="offers__swiper swiper">
+        <!-- Additional required wrapper -->
+        <div class="offers__swiper-wrapper swiper-wrapper">
+          <!-- Slides -->
+          <div class="offers__slide swiper-slide">
+            <img class="offers__image" src="img/swiper__image_one.jpg" alt="Слайд">
+          </div>
+          <div class="offers__slide swiper-slide">
+            <img class="offers__image" src="img/swiper__image_one.jpg" alt="Слайд">
+          </div>
+          <div class="offers__slide swiper-slide">
+            <img class="offers__image" src="img/swiper__image_one.jpg" alt="Слайд">
+          </div>
+          <div class="offers__slide swiper-slide">
+            <img class="offers__image" src="img/swiper__image_one.jpg" alt="Слайд">
+          </div>
+
+        </div>
+        <!-- If we need pagination -->
+        <div class="offers__pagination swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="offers__button_prev swiper-button-prev"></div>
+        <div class="offers__button_next swiper-button-next"></div>
+
+      </div>
+      <article class="offers__article">
+        <img class="offers__article-image" src="img/offer__image_one.jpg" alt="Предложение">
+        <img class="offers__article-image" src="img/offer__image_two.jpg" alt="Предложение">
+      </article>
+    </div>
+  </section>
+
+  <section class="new">
+      <div class="new__swiper container swiper">
+        <h2 class="new__h2 h2">Новинки</h2>
+        <ul class="new__swiper-wrapper swiper-wrapper ul">
+          <li class="new__slide swiper-slide" tabindex="-1">
+            <img class="new__image" src="img/new__image_one.png" alt="медиаплеер">
+            <p class="new__p p">
+              Портативный медиаплеер Ritmix RB -1010 Grey
+            </p>
+            <div class="new__slide-bottom">
+              <a class="new__link a" href=""></a>
+              <div class="new__prices">
+                <span class="new__price">3400Р</span>
+              </div>
+            </div>
+          </li>
+          <li class="new__slide swiper-slide" tabindex="-1">
+            <img class="new__image" src="img/new__image_two.png" alt="наушники">
+            <div class="new_discount">-90%</div>
+            <p class="new__p p">
+              Беспроводные наушники Remax RB-S26 Black
+            </p>
+            <div class="new__slide-bottom">
+              <a class="new__link a" href=""></a>
+              <div class="new__prices">
+                <span class="new__price">3400 Р</span>
+                <strike class="new__price_old">1400 Р</strike>
+              </div>
+            </div>
+          </li>
+          <li class="new__slide swiper-slide" tabindex="-1">
+            <img class="new__image" src="img/new__image_three.png" alt="Шапочка">
+            <p class="new__p p">
+              Шапочка Atemi
+            </p>
+            <div class="new__slide-bottom">
+              <a class="new__link a" href=""></a>
+              <div class="new__prices">
+                <span class="new__price">3400Р</span>
+              </div>
+            </div>
+          </li>
+          <li class="new__slide swiper-slide" tabindex="-1">
+            <img class="new__image" src="img/new__image_four.png" alt="Касеты">
+            <p class="new__p p">
+              Касеты сменные для бритвы Mach 3 4шт. Gillette
+            </p>
+            <div class="new__slide-bottom">
+              <a class="new__link a" href=""></a>
+              <div class="new__prices">
+                <span class="new__price">3400Р</span>
+              </div>
+            </div>
+          </li>
+          <li class="new__slide swiper-slide" tabindex="-1">
+            <img class="new__image" src="img/new__image_one.png" alt="медиаплеер">
+            <p class="new__p p">
+              Портативный медиаплеер Ritmix RB -1010 Grey
+            </p>
+            <div class="new__slide-bottom">
+              <a class="new__link a" href="" tabindex="-1"></a>
+              <span class="new__price">3400Р</span>
+            </div>
+          </li>
+          <li class="new__slide swiper-slide" tabindex="-1">
+            <img class="new__image" src="img/new__image_one.png" alt="медиаплеер">
+            <p class="new__p p">
+              Портативный медиаплеер Ritmix RB -1010 Grey
+            </p>
+            <div class="new__slide-bottom">
+              <a class="new__link a" href="" tabindex="-1"></a>
+              <span class="new__price">3400Р</span>
+            </div>
+          </li>
+        </ul>
+
+        <a class="new__link-all a" href="">Показать еще</a>
+
+        <div class="new__button_prev swiper-button-prev"></div>
+        <div class="new__button_next swiper-button-next"></div>
+      </div>
+  </section>
+
+  <section class="recommended">
+    <div class="container">
+      <h2 class="recommended__h2 h2">Рекомендованные продавцы</h2>
+      <ul class="recommended__list ul">
+        <li class="recommended__item">
+          <img class="recommended__img" src="img/sony.png">
+          <p class="recommended__p p">245 товаров</p>
+        </li>
+        <li class="recommended__item">
+          <img class="recommended__img" src="img/slmsung.png">
+          <p class="recommended__p p">482 товаров</p>
+        </li>
+        <li class="recommended__item">
+          <img class="recommended__img" src="img/xiomi.png">
+          <p class="recommended__p p">98 товаров</p>
+        </li>
+        <li class="recommended__item">
+          <img class="recommended__img" src="img/intel.png">
+          <p class="recommended__p p">132 товаров</p>
+        </li>
+        <li class="recommended__item">
+          <img class="recommended__img" src="img/nvidia.png">
+          <p class="recommended__p p">58 товаров</p>
+        </li>
+      </ul>
+      <a class="recommended__link a" href="">Показать еще</a>
+    </div>
+  </section>
+
+  <section class="popular">
+    <div class="new__swiper container swiper">
+      <h2 class="new__h2 h2">Популярные товары</h2>
+      <ul class="new__swiper-wrapper swiper-wrapper ul">
+        <li class="new__slide swiper-slide" tabindex="-1">
+          <img class="new__image" src="img/new__image_one.png" alt="медиаплеер">
+          <p class="new__p p">
+            Портативный медиаплеер Ritmix RB -1010 Grey
+          </p>
+          <div class="new__slide-bottom">
+            <a class="new__link a" href=""></a>
+            <div class="new__prices">
+              <span class="new__price">3400Р</span>
+            </div>
+          </div>
+        </li>
+        <li class="new__slide swiper-slide" tabindex="-1">
+          <img class="new__image" src="img/new__image_two.png" alt="наушники">
+          <p class="new__p p">
+            Беспроводные наушники Remax RB-S26 Black
+          </p>
+          <div class="new__slide-bottom">
+            <a class="new__link a" href=""></a>
+            <div class="new__prices">
+              <span class="new__price">3400Р</span>
+            </div>
+          </div>
+        </li>
+        <li class="new__slide swiper-slide" tabindex="-1">
+          <img class="new__image" src="img/new__image_three.png" alt="Шапочка">
+          <p class="new__p p">
+            Шапочка Atemi
+          </p>
+          <div class="new__slide-bottom">
+            <a class="new__link a" href=""></a>
+            <div class="new__prices">
+              <span class="new__price">3400Р</span>
+            </div>
+          </div>
+        </li>
+        <li class="new__slide swiper-slide" tabindex="-1">
+          <img class="new__image" src="img/new__image_four.png" alt="Касеты">
+          <p class="new__p p">
+            Касеты сменные для бритвы Mach 3 4шт. Gillette
+          </p>
+          <div class="new__slide-bottom">
+            <a class="new__link a" href=""></a>
+            <div class="new__prices">
+              <span class="new__price">3400Р</span>
+            </div>
+          </div>
+        </li>
+        <li class="new__slide swiper-slide" tabindex="-1">
+          <img class="new__image" src="img/new__image_one.png" alt="медиаплеер">
+          <p class="new__p p">
+            Портативный медиаплеер Ritmix RB -1010 Grey
+          </p>
+          <div class="new__slide-bottom">
+            <a class="new__link a" href="" tabindex="-1"></a>
+            <span class="new__price">3400Р</span>
+          </div>
+        </li>
+        <li class="new__slide swiper-slide" tabindex="-1">
+          <img class="new__image" src="img/new__image_one.png" alt="медиаплеер">
+          <p class="new__p p">
+            Портативный медиаплеер Ritmix RB -1010 Grey
+          </p>
+          <div class="new__slide-bottom">
+            <a class="new__link a" href="" tabindex="-1"></a>
+            <span class="new__price">3400Р</span>
+          </div>
+        </li>
+      </ul>
+  
+      <a class="popular__link-all new__link-all a" href="">Показать еще</a>
+  
+      <div class="new__button_prev swiper-button-prev"></div>
+      <div class="new__button_next swiper-button-next"></div>
+    </div>
+  </section>
+
+  <section class="discount">
+    <div class="discount__container">
+      <h2 class="discount__h2 h2">Эксклюзивные скидки</h2>
+      <p class="discount__p p">
+        Подпишитесь на наши новости и <strong class="strong">получите купон на скидку 10%!</strong>
+      </p>
+      <form class="discount__form" action="">
+        <input class="discount__input" type="text" placeholder="E-mail">
+        <button class="discount__submit">Подписаться</button>
+      </form>
+      <ul class="discount__list ul">
+        <li class="discount__item">
+          <a class="discount__link a" href="">
+            <img class="discount__img" src="img/inst.svg" alt="Инстаграм">
+          </a>
+        </li>
+        <li class="discount__item">
+          <a class="discount__link a" href="">
+            <img class="discount__img" src="img/vk.svg" alt="ВК">
+          </a>
+        </li>
+        <li class="discount__item">
+          <a class="discount__link a" href="">
+            <img class="discount__img" src="img/fcb.svg" alt="Фейсбук">
+          </a>
+        </li>
+        <li class="discount__item">
+          <a class="discount__link a" href="">
+            <img class="discount__img" src="img/ytb.svg" alt="Ютуб">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <ul class="footer__list ul">
+        <li class="footer__item">
+          <h3 class="footer__h3 h3">Кабинет покупателя</h3>
+          <a class="footer__link a" href="">Войти</a>
+          <a class="footer__link a" href="">Заказы</a>
+          <a class="footer__link a" href="">Создать учетную запись</a>
+          <a class="footer__link a" href="">Отложенные товары</a>
+          <a class="footer__link a" href="">Список сравнения</a>
+        </li>
+        <li class="footer__item">
+          <h3 class="footer__h3 h3">Магазин</h3>
+          <a class="footer__link a" href="">О компании</a>
+          <a class="footer__link a" href="">Бонусные баллы</a>
+          <a class="footer__link a" href="">Подарочные сертификаты</a>
+          <a class="footer__link a" href="">Карта сайта</a>
+        </li>
+        <li class="footer__item">
+          <h3 class="footer__h3 h3">Оформление заказа</h3>
+          <a class="footer__link a" href="">Корзина</a>
+          <a class="footer__link a" href="">Доставка и оплата</a>
+          <a class="footer__link a" href="">Возврат</a>
+        </li>
+        <li class="footer__item">
+          <h3 class="footer__h3 h3">Контакты</h3>
+          <p class="footer__p p">
+            г. Москва, Вн.Тер.г. Муниципальный округ Рязанский, ул. Зарайская, дом 21, этаж 3, пом. 2, офис 132
+          </p>
+          <p class="footer__p p">
+            <a class="footer__tel a" href="tel:+380985554433">8 (499) 732-39-31</a>
+            (звонок бесплатный)
+          </p>
+          <p class="footer__p p">
+            Пн-Пт 9.00-18.00
+          </p>
+        </li>
+      </ul>
+
+      <aside class="footer__aside">© 2020 - 2021 ООО «ИнтерМолл».</aside>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="js/dropdown.js"></script>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="js/offers__swiper.js"></script>
+  <script src="js/new__swiper.js"></script>
+  <script src="js/burger.js"></script>
+</body>
+
+</html>
